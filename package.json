@@ -1,0 +1,28 @@
+{
+  "name": "node-red-contrib-cayennelpp",
+  "version": "0.0.1",
+  "description": "Node Red node for decoding cayenne encoded payloads",
+  "main": "cayennelpp-decoder-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/optionseven/node-red-contrib-cayennelpp..git"
+  },
+  "author": "Gy√n Santokhi <gyan@option-seven.com> (https://www.option-seven.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/optionseven/node-red-contrib-cayennelpp/issues"
+  },
+  "homepage": "https://github.com/optionseven/node-red-contrib-cayennelpp",
+   "keywords": [
+    "node-red",
+    "cayenneLPP"
+  ],
+  "node-red": {
+    "nodes": {
+      "cayennelpp-decoder": "cayennelpp-decoder-node.js"
+    }
+  }
+}
