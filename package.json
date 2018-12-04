@@ -8,17 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/optionseven/node-red-contrib-cayennelpp..git"
+    "url": "https://github.com/optionseven/node-red-contrib-cayennelpp.git"
   },
-  "author": "Gy√n Santokhi <gyan@option-seven.com> (https://www.option-seven.com)",
+  "author": "Gyan Santokhi <gyan@option-seven.com> (https://www.option-seven.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/optionseven/node-red-contrib-cayennelpp/issues"
   },
   "homepage": "https://github.com/optionseven/node-red-contrib-cayennelpp",
-   "keywords": [
+  "keywords": [
     "node-red",
-    "cayenneLPP"
+    "cayenneLPP",
+    "cayenne",
+    "payload",
+    "LoRa"
   ],
   "node-red": {
     "nodes": {
