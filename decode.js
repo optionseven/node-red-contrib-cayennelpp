@@ -83,7 +83,7 @@ function decodeCayenneLpp(payload) {
             if (cursor + LPP_ANALOG_INPUT_SIZE > buffer.length) {
               throw new Error('Invalid CayennLpp message');
             } else {
-              value = buffer.readInt16BE(cursor) / 100.0;
+              value = buffer.readInt16BE(cursor) / 1000.0;
               cursor += 2;
               propertyName = LPP_ANALOG_INPUT_NAME + '_' + channel.toString();
               result[propertyName] = value;
@@ -93,7 +93,7 @@ function decodeCayenneLpp(payload) {
             if (cursor + LPP_ANALOG_OUTPUT_SIZE > buffer.length) {
               throw new Error('Invalid CayennLpp message');
             } else {
-              value = buffer.readInt16BE(cursor) / 100.0;
+              value = buffer.readInt16BE(cursor) / 1000.0;
               cursor += 2;
               propertyName = LPP_ANALOG_OUTPUT_NAME + '_' + channel.toString();
               result[propertyName] = value;
